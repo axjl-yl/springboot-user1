@@ -1,0 +1,14 @@
+server:
+  port: 8800
+spring:
+  resources:
+    static-locations: classpath:/static/
+  jpa:
+    database: mysql
+#DB Configuration:
+spring:
+  datasource:
+    driverClassName:  com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.105.155.219:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 123456
